@@ -1,0 +1,18 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+.container {
+    width: 1250px;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+ul li{
+    
+
+}
