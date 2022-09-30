@@ -1,18 +1,53 @@
-body {
-    font-family: 'Encode Sans', sans-serif;
-}
-
 .container {
     width: 1250px;
     margin: auto;
+    font-family: Encode Sans, 'sans-serif';
 }
 
-ul{
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-ul li{
+.menu ul li{
+    font-weight: 700;
     
+}
 
+.main-subject{
+    margin-top: 34px;
+    margin-bottom: 29px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #C4160C;
+    line-height: 67px;
+}
+.secondary-subject{
+    font-size: 18px;
+    color: #303134;
+    line-height: 30px;
+}
+
+.left-side{
+    width: 50%;
+    
+}
+
+.right-side{
+    width: 50%;
+    background-color: #CCC;
 }
