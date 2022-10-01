@@ -1,3 +1,7 @@
+body{
+    font-family: Encode Sans, 'sans-serif';
+}
+
 .container {
     max-width: 1250px;
     padding: 0 40px;
